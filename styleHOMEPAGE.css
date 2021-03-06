@@ -1,0 +1,172 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+#headerbackground {
+  background-color: #119b9d;  
+}
+.logopic {
+  margin-right: 200px;
+  margin-left: 100px;
+}
+#navlist {
+  font-size: 22px;
+}
+#donatebutton {
+  font-size: 29px;
+}
+#cardbackground1 {
+    background-color: #119b9d;
+}
+#cardbackground2 {
+    background-color: #dddddd;
+}
+.petpic {
+  width: 10rem;
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  background-color: #119b9d;
+  left: 0;
+  bottom: 0;
+  height: 7%;
+}
+.footerlogopics {
+  margin: 0;
+  padding: 0;
+}
+.footerlist {
+  
+  float: right;
+  list-style: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.footerlistitem {
+  color: black;
+  display: inline-block;
+  margin-right: 2px;
+}
+@media screen and (max-width: 1040px) and (min-width: 990px) {
+  #navlist {
+    margin-left: 0px;
+    padding: 0;
+    font-size: 15px;
+  }
+  #donatebutton {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .logopic {
+    margin-left: 25px;
+    margin-right: 50px;
+  }
+  .petpic {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .petpic {
+    width: 100%;
+  }
+  .footer {
+    position: fixed;
+    width: 100%;
+    background-color: #119b9d;
+    left: 0;
+    bottom: 0;
+    height: 7%;
+  }
+  .footerlogopics {
+    margin: 0;
+    padding: 0;
+  }
+  .footerlist {
+    float: right;
+    list-style: none;
+    font-size: 10px;
+  }
+  .footerlistitem {
+    display: inline-block;
+  }
+}
+/*about.html css*/
+.aboutheading {
+  position: relative;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.twokitties {
+  position: relative;
+  margin-top: 0;
+  height: 300px;
+}
+.video {
+  width: 50%;
+  position: relative;
+  display: inline;
+  float: right;
+}
+/*findapet css*/
+.findapet {
+  position: relative;
+  text-align: center;
+}
+/*donate page*/
+.firstandlastname {
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+.firstandlastnameborder {
+  border-bottom: 1px solid black;
+}
+.emailborder {
+  border-bottom: 1px solid black;
+}
+.newsletterheadline {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#radionewsletter {
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+.newsletterinline {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.adressborder {
+  border-bottom: 1px solid black;
+}
+.searchbutton {
+  position: bottom;
+  margin-bottom: 100px;
+}
